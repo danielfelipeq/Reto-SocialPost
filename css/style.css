@@ -1,11 +1,11 @@
 /*Agragado por Manuel*/
 @font-face {
     font-family: SourceSansPro;
-    src: 'https://fonts.google.com/specimen/Source+Sans+Pro';
+    src: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap';
     font-size: 16px;
 }
 html {
-    font-family: SourceSansPro;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 body{
     background-color: #f9f9f9;
@@ -100,3 +100,6 @@ img{
     color: #666;
 }
 
+i{
+    transform: scaleX(-1);
+}
