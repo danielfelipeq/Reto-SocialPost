@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@400;600 & display=swap');
+
 body{
     background-color: #f9f9f9;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
 }
 
 h2{
@@ -14,21 +18,60 @@ p{
     margin: auto;
     width: 600px;
     background-color: white;
+    border-color: #eee;
+    border-radius: 1rem;
 }
 
 .post-header{
-    padding: 24px 22px 12px;
+    padding: 20px 22px 12px;
+    border-bottom: 2px solid #eee;
+}
+
+.header-author{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0px
 }
 
 
+.position-name{
+    color: #033d99;
+    font-weight: 600;
+}
+
+.post-time{
+    color: #666;
+}
+
 .post-picture{
+    margin-top: 22px;
     padding: 0 22px;
+}
+img{
+    border-radius: 0.5rem;
+}
+
+.post-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+p{
+    margin: 0px;
+}
+
+.post-text{
+    color: #666;
 }
 
 .post-description{
     padding: 12px 22px;
+    border-bottom: 2px solid #eee;
 }
 
 .post-sharing{
-    padding: 0px 22px 22px;
+
+    padding: 0px 22px 10px;
+    margin-top: 10px;
 }
+
