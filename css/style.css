@@ -20,10 +20,6 @@ p{
     padding: 24px 22px 12px;
 }
 
-.position {
-    display: flex;
-    gap: 6px;
-}
 
 .post-picture{
     padding: 0 22px;
