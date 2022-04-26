@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@400;600 & display=swap');
-
+/*Agragado por Manuel*/
+@font-face {
+    font-family: SourceSansPro;
+    src: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap';
+    font-size: 16px;
+}
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 body{
     background-color: #f9f9f9;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
 }
 
 h2{
@@ -14,17 +19,42 @@ p{
     margin: 0 6px;
 }
 
+p{
+    margin: 0px;
+}
+img{
+    border-radius: 0.5rem;
+}
+
 .post{
     margin: auto;
     width: 600px;
     background-color: white;
     border-color: #eee;
     border-radius: 1rem;
+    /*Agregado por Manuel*/
+    font-size: 1.3rem;
+    font-weight: semibold (600);
+    color: #666;
 }
 
 .post-header{
     padding: 20px 22px 12px;
     border-bottom: 2px solid #eee;
+    /*Agragado por Manuel*/
+    font-size: 1.1rem;
+    font-weight: semibold (600);
+}
+
+/*Agragado por Manuel*/
+.position-name{
+    color: #033d99;
+    font-weight: semibold (600);
+}
+
+/*Agragado por Manuel*/
+.post-time {
+    color: #666;
 }
 
 .header-author{
@@ -47,17 +77,10 @@ p{
     margin-top: 22px;
     padding: 0 22px;
 }
-img{
-    border-radius: 0.5rem;
-}
 
 .post-title{
     font-size: 1.3rem;
     font-weight: 600;
-}
-
-p{
-    margin: 0px;
 }
 
 .post-text{
@@ -73,5 +96,10 @@ p{
 
     padding: 0px 22px 10px;
     margin-top: 10px;
+    /*Agregado por Manuel*/
+    color: #666;
 }
 
+i{
+    transform: scaleX(-1);
+}
