@@ -1,0 +1,38 @@
+body{
+    background-color: #f9f9f9;
+}
+
+h2{
+    margin: 0 12px;
+}
+
+p{
+    margin: 0 6px;
+}
+
+.post{
+    margin: auto;
+    width: 600px;
+    background-color: white;
+}
+
+.post-header{
+    padding: 24px 22px 12px;
+}
+
+.position {
+    display: flex;
+    gap: 6px;
+}
+
+.post-picture{
+    padding: 0 22px;
+}
+
+.post-description{
+    padding: 12px 22px;
+}
+
+.post-sharing{
+    padding: 0px 22px 22px;
+}
